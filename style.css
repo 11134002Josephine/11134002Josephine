@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Charm:wght@700&family=Cinzel&family=Cormorant+Garamond:wght@300&family=DM+Sans:opsz,wght@9..40,300&family=Noto+Serif:ital,wght@1,500&family=Roboto+Slab&display=swap');
+p { text-align:center;}
+*{box-sizing: border-box;}
+header {
+    font-family:'Charm',cursive;
+    color: #9c6644;
+    padding:10px;
+    text-align:center;
+        width: 100%;
+        margin-bottom: 20px;
+        padding:15px;
+        display: flex;
+        align-items: center;/*上下居中*/
+        /* position: sticky;
+        top: 20px; */
+        font-size:28px}
+.headersearch {
+            margin-left: auto;
+        }
+ header img {
+            max-height: 60px;
+          }
+        header h1 {
+            margin-right: auto;/*讓 menu 到右邊去*/}
+            ul.menu {
+                display: flex; /*讓選單橫排*/
+                list-style: none;/*清除圓點*/
+                margin: 0;/*清除 ul 額外空間*/
+                padding: 0;/*清除 ul 額外空間*/
+                gap: 10px;
+                flex: 0  0 auto; /* 設置固定寬度 */
+            }
+            ul.menu a {
+                /*超連結的正常狀態*/
+                padding: 10px 20px;   
+                border-radius: 20px;
+                font-family: Noto Sans TC, sans-serif;
+                font-size: 24px;
+            }
+            ul.menu a:hover {
+                /*當滑鼠移上超連結時的狀態*/
+                border-radius: 20px;
+                font-family: Noto Sans TC, sans-serif;
+                font-size: 24px;
+            }     
+            .main-image {
+                max-width: 100%;
+                border-radius: 20px; /* 圓角 */
+                height: auto;
+                display: block;
+                margin: auto;
+                padding: 20px;
+                
+              }
+              .div main {
+                max-width: 100%;
+                border-radius: 20px; /* 圓角 */
+                height: auto;
+                display: block;
+                margin: auto;
+                padding-left: 70px;
+                text-align: center;
+                align-items: center
+              }
+              .container {
+              display: flex;
+              /* grid-template-columns: repeat(4, 1fr); 四个相等的列 */
+              /* flex-wrap: wrap; */
+              gap: 10px; /* 元素之间的空隙 */
+              padding-left: 20px;
+            }
+      .item {
+        flex-shrink: 1;
+      }
+      .item img {
+        width: 100%;
+      }
+            .title {
+              width: 300px;
+              text-align: center; /* 文字水平居中 */
+              font-family:'DM Sans', sans-serif;
+              font-size: 20px;
+            }
+.footer{
+  text-align: center; /* 文字水平居中 */
+  font-family:'Noto Serif', serif;
+  font-size: 20px;
+  background-color: #edede9
+}
+.bag .content{
+    text-align: center;
+    gap: 50px;
+    
+}
+body {
+    font-family:'DM Sans', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: #ffffff};
+    
+
